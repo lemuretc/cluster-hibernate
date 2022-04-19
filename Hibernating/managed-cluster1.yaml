@@ -1,0 +1,8 @@
+---
+apiVersion: hive.openshift.io/v1
+kind: ClusterDeployment
+metadata:
+  name: managed-cluster1
+  namespace: managed-cluster1
+spec:
+  powerState: Hibernating

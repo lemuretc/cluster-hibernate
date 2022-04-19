@@ -1,0 +1,8 @@
+---
+apiVersion: hive.openshift.io/v1
+kind: ClusterDeployment
+metadata:
+  name: ocpv-cluster1
+  namespace: ocpv-cluster1
+spec:
+  powerState: Running
